@@ -13,15 +13,16 @@
       rel="stylesheet"
     />
   </head>
+
   <body>
-    <header>
-      <!-- <nav>
-        <a href="#">Inicio</a>
-        <a href="#">Acerca de</a>
-        <a href="#">Portafolio</a>
-        <a href="#">Servicio</a>
-        <a href="#">Contacto</a>
-      </nav> -->
+    <header  id="inicio">
+      <nav >
+        <a href="#inicio">Inicio</a>
+        <a href="#actividades">Actividades</a>
+        <a href="#galeria">Galeria</a>
+        <a href="#informacion">Infomación</a>
+        <a href="#objetivos">Objetivos</a>
+      </nav> 
       <section class="textos-header">
         <h1>Conoce San Miguel Xicalco</h1>
         <h2>Un Pueblo con identidad cultural y gastronómica</h2>
@@ -43,7 +44,7 @@
     </header>
 
     <main>
-      <section class="contenedor sobre-nosotros">
+      <section class="contenedor sobre-nosotros" id="actividades">
         <h2 class="titulo">Algunas actividades que puedes hacer en Xicalco.</h2>
         <div class="contenedor-sobre-nosotros">
           <img src="img/ilustracion2.jpg" alt="" class="imagen-about-us" />
@@ -65,61 +66,63 @@
           </div>
         </div>
       </section>
-      <section class="portafolio">
+
+
+      <section class="portafolio" id="galeria">
         <div class="contenedor">
           <h2 class="titulo">Galeria</h2>
           <div class="galeria-port">
             <div class="imagen-port">
-              <img src="img/img1.jpg" alt="" />
+              <img src="img/img1.jpeg" alt="" class="img-galeria"/>
               <div class="hover-galeria">
                 <img src="img/haciendo-clic.png" alt="" />
                 <p>localización</p>
               </div>
             </div>
             <div class="imagen-port">
-              <img src="img/img3.jpg" alt="" />
+              <img src="img/img2.jpeg" alt="" />
               <div class="hover-galeria">
                 <img src="img/haciendo-clic.png" alt="" />
                 <p>Nuestro trabajo</p>
               </div>
             </div>
             <div class="imagen-port">
-              <img src="img/img4.jpg" alt="" />
+              <img src="img/img3.jpeg" alt="" />
               <div class="hover-galeria">
                 <img src="img/haciendo-clic.png" alt="" />
                 <p>Nuestro trabajo</p>
               </div>
             </div>
             <div class="imagen-port">
-              <img src="img/img5.jpg" alt="" />
+              <img src="img/img4.jpeg" alt="" />
               <div class="hover-galeria">
                 <img src="img/haciendo-clic.png" alt="" />
                 <p>Nuestro trabajo</p>
               </div>
             </div>
             <div class="imagen-port">
-              <img src="img/img6.jpg" alt="" />
+              <img src="img/img5.jpeg" alt="" />
               <div class="hover-galeria">
                 <img src="img/haciendo-clic.png" alt="" />
                 <p>Nuestro trabajo</p>
               </div>
             </div>
             <div class="imagen-port">
-              <img src="img/img7.jpg" alt="" />
+              <img src="img/img6.jpeg" alt="" />
               <div class="hover-galeria">
                 <img src="img/haciendo-clic.png" alt="" />
                 <p>Nuestro trabajo</p>
               </div>
             </div>
             <div class="imagen-port">
-              <img src="img/img8.jpg" alt="" />
+              <img src="img/img7.jpeg" alt="" />
               <div class="hover-galeria">
                 <img src="img/haciendo-clic.png" alt="" />
                 <p>Nuestro trabajo</p>
               </div>
             </div>
             <div class="imagen-port">
-              <img src="img/img9.jpg" alt="" />
+              <img src="img/img8.jpeg" alt="" />
               <div class="hover-galeria">
                 <img src="img/haciendo-clic.png" alt="" />
                 <p>Nuestro trabajo</p>
@@ -128,8 +131,11 @@
           </div>
         </div>
       </section>
-
-      <section class="course container">
+   
+      <div id="informacion">
+        <h2 class="titulo">Información</h2>
+      </div>
+      <section class="course container" >
         <figure class="course_picture">
           <img src="img/web2.jpg" class="course_img" />
         </figure>
@@ -142,8 +148,7 @@
 
           </p>
         </div>
-      </section>
-       
+      </section>   
       <section class="course container">
         <figure class="course_picture course_picture--rigth">
           <img src="img/web3.jpg" class="course_img" />
@@ -152,12 +157,8 @@
         <div class="course_about course_about--left">
           <h2 class="title">Nuestro objetivo</h2>
           <p class="about_paragraph">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Consequatur, sapiente iure ut a quasi sequi, fuga nemo architecto
-            voluptate accusamus voluptates distinctio libero! Mollitia earum
-            atque voluptates, consequuntur perspiciatis velit!
+            Promover la riqueza gastronómica de San Miguel Xicalco destacando la importancia de sus maíces nativos. A través de esta página, buscamos difundir las tradiciones culinarias locales, fomentar el uso y conservación de los maíces ancestrales.
           </p>
-          <a href="#" class="cta">Quiero saber mas del proyecto</a>
         </div>
       </section>
       <section class="course container">
@@ -176,7 +177,7 @@
         </div>
       </section>
 
-      <section class="about-service">
+      <section class="about-service" id="objetivos">
         <div class="contenedor">
           <h2 class="titulo">Nuestro objetivo particulares</h2>
           <div class="servicio-cont">
